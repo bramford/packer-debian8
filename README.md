@@ -1,5 +1,7 @@
 Packer Templates: Debian 8 (jessie)
 -----------------------------------
+
+[![Build Status](https://travis-ci.org/bramford/packer-debian8.svg?branch=master)](https://travis-ci.org/bramford/packer-debian8)
  
 Fully automated installation of debain 8, powered by:
 
