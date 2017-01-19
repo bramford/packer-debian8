@@ -3,7 +3,7 @@ Packer Templates: Debian 8 (jessie)
 
 [![Build Status](https://travis-ci.org/bramford/packer-debian8.svg?branch=master)](https://travis-ci.org/bramford/packer-debian8)
  
-Fully automated installation of debain 8, powered by:
+Fully automated installation of debian 8, powered by:
 
 - [Packer](https://www.packer.io/intro/index.html)
 - [Ansible](http://docs.ansible.com/ansible/index.html)
@@ -24,11 +24,17 @@ Fully automated installation of debain 8, powered by:
 
 ## Install Host Dependencies
 
+### Debian/Ubuntu
+
     apt-get install qemu-kvm
+
+### RHEL/CentOS
+
+    yum install qemu-kvm
 
 ## Build
  
-    packer build packer-debain8-qemu-kvm.json -var 'local_domain=lan.mydomain.com'
+    packer build packer-debian8-qemu-kvm.json
  
 ## Output
  
