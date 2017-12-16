@@ -4,13 +4,13 @@
     "build_id": "{{isotime \"20060102150405\"}}",
     "build_name": "packer-debian8-qemu-kvm",
     "disk_size": "10240",
-    "iso_checksum": "27e41f13ce0f71e0fc503da41f3afa87285e0fc2e8ffb8d7ff4f572e26451dafd1a6f220c9256731d451400893437b0dfc17534c441f2a29a81130c59f790a50",
+    "iso_checksum": "367f99ede326de69f1e434aa6e9e5517a3437ee1239bba76dd0d53c3cb912507c660b684ed41d7ef80fbe93d2099ae1d3209bfca5df3dd90b1b5a486ce9c1369",
     "iso_checksum_type": "sha512",
-    "iso_name": "debian-8.8.0-amd64-netinst.iso",
+    "iso_name": "debian-8.10.0-amd64-netinst.iso",
     "local_domain": "lan.mydomain.com",
     "local_mirror_url": "http://localhost",
     "output_dir": "output",
-    "remote_mirror_url": "https://cdimage.debian.org/mirror/cdimage/archive/8.8.0/amd64/iso-cd"
+    "remote_mirror_url": "https://cdimage.debian.org/mirror/cdimage/archive/8.10.0/amd64/iso-cd"
   },
 
   "builders": [
